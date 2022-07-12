@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         //Acciones de Jugador
         if (Input.GetKey(KeyCode.Space))
         {
-            //Lanzamos un proyectil.
+            //Lanzamos un proyectil
             //Instanciamos uno de los prefabs que como tiene el script de movimiento se lanzará.
             Instantiate(projectilePrefab, transform.position, transform.rotation);
         }
